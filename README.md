@@ -10,9 +10,9 @@ composer require echosters/translatable
 ```
 ## DataBase
 
-| id  | title_en | title_es | 
+| id  | title_en | title_ar | 
 | ------------- | ------------- | ------------- |
-| 1  | Hello  | Hola | 
+| 1  | Hello  | مرحبا | 
 
 ## Preparing your model
 ```php
@@ -23,7 +23,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Echosters\Translatable\Translatable;
 
-class YourModel extends Model
+class Blog extends Model
 {
     use Translatable;
 
@@ -34,12 +34,12 @@ class YourModel extends Model
 
 ```php
 //local = en
-$user = YourModel::find(1);
-$user->title; // Hello
+$blog = Blog::find(1);
+$blog->title; // Hello
 
-//local = es
-$user = YourModel::find(1);
-$user->title; // Hola
+//local = ar
+$blog = Blog::find(1);
+$blog->title; // مرحبا
 ```
 
 ## Notes
