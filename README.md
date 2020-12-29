@@ -3,7 +3,7 @@ Translatable is a Laravel package for dealing with Multi-Lang Tables.
 
 ## Installation
 
-Using [composer](https://getcomposer.org/) to install routable.
+Using [composer](https://getcomposer.org/) to install translatable.
 
 ```bash
 composer require echosters/translatable
