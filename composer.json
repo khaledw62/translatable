@@ -1,0 +1,14 @@
+{
+    "name": "echosters/translatable",
+    "description": "Translatable is Laravel Package helps you dealing with multi-lang tables",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khaled Waleed",
+            "email": "khaledw62@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
