@@ -41,6 +41,17 @@ $blog->title; // Hello
 $blog = Blog::find(1);
 $blog->title; // مرحبا
 ```
+## Query
+You May use ```whereLocale``` to query one of your translatable columns depending on the current locale
+```php
+//local = en
+$blog = Blog::whereLocal('title', 'LIKE', '%hell%')->first();
+$blog->title; // Hello
+
+//local = ar
+$blog = Blog::whereLocal('title', 'LIKE', '%مرح%')->first();
+$blog->title; // مرحبا
+```
 
 ## Notes
 just know that the ```title``` property doesn't exist in your table the trait will add it while the model is booting,
