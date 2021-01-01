@@ -59,7 +59,7 @@ in other words the sql generated statement will be like below.
 
 when locale is ```en``` statement```select title_en as title```
 
-when locale is ```es``` statement```select title_es as title```
+when locale is ```ar``` statement```select title_ar as title```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
