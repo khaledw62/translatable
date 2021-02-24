@@ -9,6 +9,18 @@
             "email": "khaledw62@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Echosters\\Translatable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Echosters\\Providers\\TranslatableServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
