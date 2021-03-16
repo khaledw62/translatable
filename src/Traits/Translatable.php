@@ -1,5 +1,5 @@
 <?php
-namespace Echosters\Translatable;
+namespace Echosters\Translatable\Traits;
 
 use Echosters\Translatable\Scopes\LangScope;
 
