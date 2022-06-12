@@ -5,9 +5,8 @@ use Echosters\Translatable\Scopes\LangScope;
 
 trait Translatable
 {
-    public static function boot()
+    protected static function booted()
     {
-        parent::boot();
         static::addGlobalScope(new LangScope);
     }
 }
